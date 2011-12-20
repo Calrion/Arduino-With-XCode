@@ -7,6 +7,17 @@
 
 ###	Quickstart
 
+	Before you start, you need to have the Arduino application installed on
+	your Mac. You also need to setup a source tree to tell Xcode where to find
+	the files within the application bundle:
+	
+1.	Launch Xcode, and open the preferences dialog (Xcode > Preferences). Select the 
+	Locations tab, then select the Source Trees button.
+
+2.	Add a new source tree with the setting name "arduinoApp", setting the path to the
+	location of the Arduino application on your system. E.g. "/Applications/Arduino.app".
+	Give it a display name you'll recognise, e.g. "Arduino Application".
+
 	To build select target "Build Arduino" and press "Run"
 	To build and upload select target "Build and Upload" and press "Run"
     

@@ -395,8 +395,8 @@
 				19A5FF3A14757EDF00FAEAAB /* WString.o */,
 			);
 			name = arduino;
-			path = ../../../../../Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/cores/arduino;
-			sourceTree = "<group>";
+			path = Contents/Resources/Java/hardware/arduino/cores/arduino;
+			sourceTree = arduinoApp;
 		};
 		19A5FF3B14757F0400FAEAAB /* libraries */ = {
 			isa = PBXGroup;
@@ -415,8 +415,8 @@
 				19A5000614757F0400FAEAAB /* Wire */,
 			);
 			name = libraries;
-			path = ../../../../../Applications/Arduino.app/Contents/Resources/Java/libraries;
-			sourceTree = "<group>";
+			path = Contents/Resources/Java/libraries;
+			sourceTree = arduinoApp;
 		};
 		19A5FF3C14757F0400FAEAAB /* EEPROM */ = {
 			isa = PBXGroup;
