@@ -258,8 +258,8 @@
 				2259D0AD14C854960021B514 /* WString.h */,
 			);
 			name = arduino;
-			path = /Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/cores/arduino;
-			sourceTree = "<absolute>";
+			path = Contents/Resources/Java/hardware/arduino/cores/arduino;
+			sourceTree = arduinoApp;
 		};
 		2259D0AF14C855150021B514 /* libraries */ = {
 			isa = PBXGroup;
@@ -278,8 +278,8 @@
 				2259D17A14C855160021B514 /* Wire */,
 			);
 			name = libraries;
-			path = /Applications/Arduino.app/Contents/Resources/Java/libraries;
-			sourceTree = "<absolute>";
+			path = Contents/Resources/Java/libraries;
+			sourceTree = arduinoApp;
 		};
 		2259D0B014C855150021B514 /* EEPROM */ = {
 			isa = PBXGroup;
